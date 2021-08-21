@@ -1,0 +1,25 @@
+html, body {
+  background-color: #222;
+  padding-bottom: 20px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.App {
+  margin: auto;
+  margin-top: 20%;
+  display: flex;
+  background-color: #5448C8;
+  width: 700px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    width: 90%;
+  }
+}
